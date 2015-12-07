@@ -2,9 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Electron Read Us</title>
+  <title>Wevview</title>
 </head>
 <body>
-<h1>Hello, electron!</h1>
+<webview id="mainWebview" src="http://programp.com/wp-admin" autosize="on"></webview>
+<style>
+  webview {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+</style>
 </body>
 </html>
