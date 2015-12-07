@@ -1,0 +1,12 @@
+{
+  "name": "electron-wp-rest-api",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kazuya Takami",
+  "license": "ISC",
+  "description": "Sample to access the REST API of WordPress in Electron."
+}
