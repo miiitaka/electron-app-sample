@@ -1,5 +1,4 @@
-# electron-wp-rest-api
-Sample to access the REST API of WordPress in "Electron".
+# electron-seiyaan
 
 ### Install
 
@@ -11,4 +10,22 @@ npm -g install electron-prebuilt
 
 ```
 electron .
+```
+
+### Build Package install
+
+```
+npm i electron-packager -g
+```
+
+### Create icon
+
+```
+iconutil -c icns seiyaan.iconset
+```
+
+### Build app
+
+```
+electron-packager . seiyaan --platform=darwin --arch=x64 --version=0.30.0 --icon=seiyaan.icns
 ```
