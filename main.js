@@ -14,12 +14,12 @@ app.on('window-all-closed', function() {
 
 app.on('ready', function() {
   mainWindow = new BrowserWindow({
-    "width"  : 1000,
+    "width"  : 800,
     "height" : 600,
     "frame"  : true,
     "node-integration": false
   });
-  mainWindow.loadUrl('http://seiyakai.net/');
+  mainWindow.loadUrl('http://programp.com/');
 
   mainWindow.on('closed', function() {
     mainWindow = null;
