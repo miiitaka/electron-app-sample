@@ -1,4 +1,4 @@
-# electron-seiyaan
+# electron-app-sample
 
 ### Install
 
