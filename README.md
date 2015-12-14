@@ -1,4 +1,5 @@
 # electron-app-sample
+http://electron.atom.io/
 
 ### Install
 
@@ -21,11 +22,11 @@ npm i electron-packager -g
 ### Create icon
 
 ```
-iconutil -c icns seiyaan.iconset
+iconutil -c icns sample.iconset
 ```
 
 ### Build app
 
 ```
-electron-packager . seiyaan --platform=darwin --arch=x64 --version=0.30.0 --icon=seiyaan.icns
+electron-packager . sampleApp --platform=darwin --arch=x64 --version=0.36.0 --icon=sample.icns
 ```
